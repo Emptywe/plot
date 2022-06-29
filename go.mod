@@ -1,4 +1,4 @@
-module github.com/emptywe/plot
+module github.com/Emptywe/plot
 
 go 1.17
 
