@@ -13,11 +13,11 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/Emptywe/plot"
-	_ "github.com/Emptywe/plot/gob"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	_ "github.com/emptywe/plot/gob"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 func init() {

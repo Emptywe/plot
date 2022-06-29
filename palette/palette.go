@@ -7,7 +7,7 @@
 // license that can be found in the LICENSE file.
 
 // Package palette provides basic color palette handling.
-package palette // import "github.com/Emptywe/plot/palette"
+package palette // import "github.com/emptywe/plot/palette"
 
 import (
 	"errors"

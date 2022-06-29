@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot/vg"
 )
 
 const tol = 1e-12

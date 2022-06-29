@@ -4,7 +4,7 @@
 
 package vg
 
-import "github.com/Emptywe/plot/font"
+import "github.com/emptywe/plot/font"
 
 // A Length is a unit-independent representation of length.
 // Internally, the length is stored in postscript points.

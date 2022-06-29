@@ -7,7 +7,7 @@ package plotter_test
 import (
 	"testing"
 
-	"github.com/Emptywe/plot/cmpimg"
+	"github.com/emptywe/plot/cmpimg"
 )
 
 func TestNewBubbles(t *testing.T) {

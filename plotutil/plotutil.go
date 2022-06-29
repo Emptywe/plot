@@ -5,13 +5,13 @@
 // Package plotutil contains a small number of utilites for creating plots.
 //
 // This package is under active development so portions of it may change.
-package plotutil // import "github.com/Emptywe/plot/plotutil"
+package plotutil // import "github.com/emptywe/plot/plotutil"
 
 import (
 	"image/color"
 
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // DefaultColors is a set of colors used by the Color function.

@@ -7,9 +7,9 @@ package draw_test
 import (
 	"fmt"
 
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
-	"github.com/Emptywe/plot/vg/vgimg"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg/vgimg"
 )
 
 func ExampleCrop_splitHorizontal() {

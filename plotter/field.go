@@ -7,9 +7,9 @@ package plotter
 import (
 	"math"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // FieldXY describes a two dimensional vector field where the

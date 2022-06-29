@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
 )
 
 func ExampleBoxPlot() {

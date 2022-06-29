@@ -7,9 +7,9 @@ package plotter_test
 import (
 	"log"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/palette"
-	"github.com/Emptywe/plot/plotter"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/palette"
+	"github.com/emptywe/plot/plotter"
 	"gonum.org/v1/gonum/mat"
 )
 

@@ -9,10 +9,10 @@ import (
 	"log"
 	"math"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/palette/moreland"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/palette/moreland"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
 )
 
 // ExamplePolygon_holes draws a polygon with holes, showing how

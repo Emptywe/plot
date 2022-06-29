@@ -4,7 +4,7 @@
 
 // Package vgeps implements the vg.Canvas interface using
 // encapsulated postscript.
-package vgeps // import "github.com/Emptywe/plot/vg/vgeps"
+package vgeps // import "github.com/emptywe/plot/vg/vgeps"
 
 import (
 	"bufio"
@@ -16,9 +16,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 func init() {
@@ -62,7 +62,7 @@ func NewTitle(w, h vg.Length, title string) *Canvas {
 		buf:   new(bytes.Buffer),
 	}
 	c.buf.WriteString("%%!PS-Adobe-3.0 EPSF-3.0\n")
-	c.buf.WriteString("%%Creator github.com/Emptywe/plot/vg/vgeps\n")
+	c.buf.WriteString("%%Creator github.com/emptywe/plot/vg/vgeps\n")
 	c.buf.WriteString("%%Title: " + title + "\n")
 	c.buf.WriteString(fmt.Sprintf("%%%%BoundingBox: 0 0 %.*g %.*g\n",
 		pr, w.Dots(DPI),

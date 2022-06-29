@@ -12,15 +12,15 @@
 // New* functions return an error if the data contains Inf, NaN, or is
 // empty. Some of the New* functions return other plotter-specific errors
 // too.
-package plotter // import "github.com/Emptywe/plot/plotter"
+package plotter // import "github.com/emptywe/plot/plotter"
 
 import (
 	"errors"
 	"image/color"
 	"math"
 
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 var (

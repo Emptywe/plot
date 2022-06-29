@@ -8,11 +8,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
-	"github.com/Emptywe/plot/vg/vgimg"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg/vgimg"
 )
 
 func ExampleLabels() {

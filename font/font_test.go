@@ -8,8 +8,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/font/liberation"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/font/liberation"
 	stdfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 	"golang.org/x/image/math/fixed"

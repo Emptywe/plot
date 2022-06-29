@@ -9,7 +9,7 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/Emptywe/plot/palette"
+	"github.com/emptywe/plot/palette"
 )
 
 // smoothDiverging is a smooth diverging color palette as described in

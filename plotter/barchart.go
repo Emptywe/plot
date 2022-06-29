@@ -9,9 +9,9 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // A BarChart presents grouped data with rectangular bars

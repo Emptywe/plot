@@ -5,9 +5,9 @@
 package plotter
 
 import (
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // Function implements the Plotter interface,

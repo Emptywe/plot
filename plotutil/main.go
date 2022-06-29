@@ -10,9 +10,9 @@ package main
 import (
 	"golang.org/x/exp/rand"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/plotutil"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/plotutil"
 )
 
 var examples = []struct {

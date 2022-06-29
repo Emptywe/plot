@@ -8,9 +8,9 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/palette/moreland"
-	"github.com/Emptywe/plot/plotter"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/palette/moreland"
+	"github.com/emptywe/plot/plotter"
 )
 
 func ExampleColorBar_horizontal() {

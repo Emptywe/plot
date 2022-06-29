@@ -10,12 +10,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/plotutil"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
-	"github.com/Emptywe/plot/vg/recorder"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/plotutil"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg/recorder"
 )
 
 func TestMultiCanvas(t *testing.T) {

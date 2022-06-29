@@ -7,7 +7,7 @@ package plot_test
 import (
 	"testing"
 
-	"github.com/Emptywe/plot/cmpimg"
+	"github.com/emptywe/plot/cmpimg"
 )
 
 func TestAlign(t *testing.T) {

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package draw // import "github.com/Emptywe/plot/vg/draw"
+package draw // import "github.com/emptywe/plot/vg/draw"
 
-import "github.com/Emptywe/plot/text"
+import "github.com/emptywe/plot/text"
 
 // PlainTextHandler is a text/plain handler.
 type PlainTextHandler = text.Plain

@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/font/liberation"
-	"github.com/Emptywe/plot/text"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/font/liberation"
+	"github.com/emptywe/plot/text"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 var (
@@ -70,9 +70,9 @@ type Plot struct {
 
 // Plotter is an interface that wraps the Plot method.
 // Some standard implementations of Plotter can be
-// found in the github.com/Emptywe/plot/plotter
+// found in the github.com/emptywe/plot/plotter
 // package, documented here:
-// https://godoc.org/github.com/Emptywe/plot/plotter
+// https://godoc.org/github.com/emptywe/plot/plotter
 type Plotter interface {
 	// Plot draws the data to a draw.Canvas.
 	Plot(draw.Canvas, *Plot)

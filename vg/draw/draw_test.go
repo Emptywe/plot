@@ -10,15 +10,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
-	"github.com/Emptywe/plot/vg/recorder"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg/recorder"
 
-	_ "github.com/Emptywe/plot/vg/vgeps"
-	_ "github.com/Emptywe/plot/vg/vgimg"
-	_ "github.com/Emptywe/plot/vg/vgpdf"
-	_ "github.com/Emptywe/plot/vg/vgsvg"
-	_ "github.com/Emptywe/plot/vg/vgtex"
+	_ "github.com/emptywe/plot/vg/vgeps"
+	_ "github.com/emptywe/plot/vg/vgimg"
+	_ "github.com/emptywe/plot/vg/vgpdf"
+	_ "github.com/emptywe/plot/vg/vgsvg"
+	_ "github.com/emptywe/plot/vg/vgtex"
 )
 
 func TestCrop(t *testing.T) {

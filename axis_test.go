@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Emptywe/plot/cmpimg"
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot/cmpimg"
+	"github.com/emptywe/plot/vg"
 )
 
 var axisSmallTickTests = []struct {

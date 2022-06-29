@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package recorder provides support for vector graphics serialization.
-package recorder // import "github.com/Emptywe/plot/vg/recorder"
+package recorder // import "github.com/emptywe/plot/vg/recorder"
 
 import (
 	"bytes"
@@ -14,9 +14,9 @@ import (
 	"image/png"
 	"runtime"
 
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/font/liberation"
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/font/liberation"
+	"github.com/emptywe/plot/vg"
 )
 
 var _ vg.Canvas = (*Canvas)(nil)

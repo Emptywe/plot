@@ -8,10 +8,10 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/palette"
-	"github.com/Emptywe/plot/palette/moreland"
-	"github.com/Emptywe/plot/plotter"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/palette"
+	"github.com/emptywe/plot/palette/moreland"
+	"github.com/emptywe/plot/plotter"
 )
 
 // This example creates a color bar and a second color bar where the

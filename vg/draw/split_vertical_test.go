@@ -5,8 +5,8 @@
 package draw_test
 
 import (
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // SplitVertical returns the lower and upper portions of c after

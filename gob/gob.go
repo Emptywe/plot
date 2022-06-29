@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package gob // import "github.com/Emptywe/plot/gob"
+package gob // import "github.com/emptywe/plot/gob"
 
 import (
 	"encoding/gob"
 	"image/color"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/text"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/text"
 )
 
 func init() {

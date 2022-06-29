@@ -5,12 +5,12 @@
 //go:build !minimal
 // +build !minimal
 
-package plot // import "github.com/Emptywe/plot"
+package plot // import "github.com/emptywe/plot"
 
 import (
-	_ "github.com/Emptywe/plot/vg/vgeps"
-	_ "github.com/Emptywe/plot/vg/vgimg"
-	_ "github.com/Emptywe/plot/vg/vgpdf"
-	_ "github.com/Emptywe/plot/vg/vgsvg"
-	_ "github.com/Emptywe/plot/vg/vgtex"
+	_ "github.com/emptywe/plot/vg/vgeps"
+	_ "github.com/emptywe/plot/vg/vgimg"
+	_ "github.com/emptywe/plot/vg/vgpdf"
+	_ "github.com/emptywe/plot/vg/vgsvg"
+	_ "github.com/emptywe/plot/vg/vgtex"
 )

@@ -7,9 +7,9 @@ package plotter
 import (
 	"image/color"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // StepKind specifies a form of a connection of two consecutive points.

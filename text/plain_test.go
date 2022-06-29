@@ -9,10 +9,10 @@ import (
 
 	stdfnt "golang.org/x/image/font"
 
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/font/liberation"
-	"github.com/Emptywe/plot/text"
-	"github.com/Emptywe/plot/vg"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/font/liberation"
+	"github.com/emptywe/plot/text"
+	"github.com/emptywe/plot/vg"
 )
 
 func TestPlainText(t *testing.T) {

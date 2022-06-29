@@ -8,11 +8,11 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/cmpimg"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/cmpimg"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 func TestLabels(t *testing.T) {

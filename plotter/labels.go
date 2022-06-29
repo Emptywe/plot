@@ -7,11 +7,11 @@ package plotter
 import (
 	"errors"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/font"
-	"github.com/Emptywe/plot/text"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/font"
+	"github.com/emptywe/plot/text"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 var (

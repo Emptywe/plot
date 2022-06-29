@@ -9,11 +9,11 @@ package plotter_test
 import (
 	"image/color"
 
-	"github.com/Emptywe/plot"
-	"github.com/Emptywe/plot/palette"
-	"github.com/Emptywe/plot/plotter"
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot"
+	"github.com/emptywe/plot/palette"
+	"github.com/emptywe/plot/plotter"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 	"gonum.org/v1/gonum/mat"
 )
 

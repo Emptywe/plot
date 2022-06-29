@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Emptywe/plot/vg"
-	"github.com/Emptywe/plot/vg/draw"
+	"github.com/emptywe/plot/vg"
+	"github.com/emptywe/plot/vg/draw"
 )
 
 // Align returns a two-dimensional row-major array of Canvases which will
