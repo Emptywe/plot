@@ -7,7 +7,7 @@ package plotter_test
 import (
 	"testing"
 
-	"gitlab.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/cmpimg"
 )
 
 func TestVolcano(t *testing.T) {

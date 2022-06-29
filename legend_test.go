@@ -7,7 +7,7 @@ package plot_test
 import (
 	"testing"
 
-	"gitlab.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/cmpimg"
 )
 
 func TestLegend_standalone(t *testing.T) {

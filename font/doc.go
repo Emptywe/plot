@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package font provides types to describe and select text font faces.
-package font // import "gitlab.com/Emptywe/plot/font"
+package font // import "github.com/Emptywe/plot/font"

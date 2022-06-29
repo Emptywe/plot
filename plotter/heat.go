@@ -9,10 +9,10 @@ import (
 	"image/color"
 	"math"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/palette"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/palette"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // GridXYZ describes three dimensional data where the X and Y

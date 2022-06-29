@@ -3,9 +3,9 @@
 // license that can be found in the LICENSE file.
 
 // Package bezier implements 2D Bézier curve calculation.
-package bezier // import "gitlab.com/Emptywe/plot/tools/bezier"
+package bezier // import "github.com/Emptywe/plot/tools/bezier"
 
-import "gitlab.com/Emptywe/plot/vg"
+import "github.com/Emptywe/plot/vg"
 
 type point struct {
 	Point, Control vg.Point

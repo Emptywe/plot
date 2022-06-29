@@ -5,9 +5,9 @@
 package plotter
 
 import (
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // Scatter implements the Plotter interface, drawing

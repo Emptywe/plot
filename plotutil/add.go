@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
 )
 
 type combineXYs struct{ xs, ys plotter.Valuer }

@@ -8,7 +8,7 @@ import (
 	"math"
 	"sort"
 
-	"gitlab.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/plotter"
 )
 
 // ErrorPoints holds a set of x, y pairs along

@@ -9,7 +9,7 @@ import (
 	"image/color"
 	"math"
 
-	"gitlab.com/Emptywe/plot/palette"
+	"github.com/Emptywe/plot/palette"
 )
 
 // luminance is a color palette that interpolates

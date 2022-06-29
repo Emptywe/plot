@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package draw // import "gitlab.com/Emptywe/plot/vg/draw"
+package draw // import "github.com/Emptywe/plot/vg/draw"
 
 import (
-	"gitlab.com/Emptywe/plot/text"
+	"github.com/Emptywe/plot/text"
 )
 
 type TextHandler = text.Handler

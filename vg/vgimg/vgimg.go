@@ -4,7 +4,7 @@
 
 // Package vgimg implements the vg.Canvas interface using
 // git.sr.ht/~sbinet/gg as a backend to output raster images.
-package vgimg // import "gitlab.com/Emptywe/plot/vg/vgimg"
+package vgimg // import "github.com/Emptywe/plot/vg/vgimg"
 
 import (
 	"bufio"
@@ -19,9 +19,9 @@ import (
 	"git.sr.ht/~sbinet/gg"
 	"golang.org/x/image/tiff"
 
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/vg"
-	vgdraw "gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/vg"
+	vgdraw "github.com/Emptywe/plot/vg/draw"
 )
 
 func init() {

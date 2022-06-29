@@ -7,7 +7,7 @@ package plotter_test
 import (
 	"testing"
 
-	"gitlab.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/cmpimg"
 )
 
 func TestRotation(t *testing.T) {

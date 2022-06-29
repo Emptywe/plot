@@ -7,9 +7,9 @@ package draw_test
 import (
 	"fmt"
 
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
-	"gitlab.com/Emptywe/plot/vg/vgimg"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg/vgimg"
 )
 
 func ExampleCrop_splitVertical() {

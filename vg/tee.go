@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/color"
 
-	"gitlab.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/font"
 )
 
 // MultiCanvas creates a canvas that duplicates its drawing operations to all

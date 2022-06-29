@@ -5,8 +5,8 @@
 package draw_test
 
 import (
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // SplitHorizontal returns the left and right portions of c after splitting it

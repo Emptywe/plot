@@ -9,9 +9,9 @@ import (
 	"log"
 	"math"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
 )
 
 // Example_logScale shows how to create a plot with a log-scale on the Y-axis.

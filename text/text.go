@@ -8,8 +8,8 @@ import (
 	"image/color"
 	"math"
 
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/vg"
 )
 
 // Handler parses, formats and renders text.

@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/cmpimg"
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/text"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
-	"gitlab.com/Emptywe/plot/vg/recorder"
-	"gitlab.com/Emptywe/plot/vg/vgimg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/text"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg/recorder"
+	"github.com/Emptywe/plot/vg/vgimg"
 )
 
 func TestLegendAlignment(t *testing.T) {

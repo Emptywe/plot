@@ -16,11 +16,11 @@ import (
 
 	"gioui.org/layout"
 	"gioui.org/op"
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/cmpimg"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 const deltaGio = 0.05 // empirical value from experimentation.

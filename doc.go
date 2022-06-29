@@ -10,7 +10,7 @@
 // interface can draw to the data area of a plot using the primitives
 // made available by this package.  Some standard implementations
 // of the Plotter interface can be found in the
-// gitlab.com/Emptywe/plot/plotter package
+// github.com/Emptywe/plot/plotter package
 // which is documented here:
-// https://godoc.org/gitlab.com/Emptywe/plot/plotter
-package plot // import "gitlab.com/Emptywe/plot"
+// https://godoc.org/github.com/Emptywe/plot/plotter
+package plot // import "github.com/Emptywe/plot"

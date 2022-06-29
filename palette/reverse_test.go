@@ -7,7 +7,7 @@ package palette_test
 import (
 	"testing"
 
-	"gitlab.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/cmpimg"
 )
 
 func TestReverse(t *testing.T) {

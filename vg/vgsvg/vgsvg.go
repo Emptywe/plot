@@ -9,12 +9,12 @@
 // When embedding was not requested during plot creation, it may happen that
 // the generated SVG plot may not display well if the Liberation fonts are not
 // available to the program displaying the SVG plot.
-// See gitlab.com/Emptywe/plot/vg/vgsvg#Example_standardFonts for how to work around
+// See github.com/Emptywe/plot/vg/vgsvg#Example_standardFonts for how to work around
 // this issue.
 //
 // Alternatively, users may want to install the Liberation fonts on their system:
 //  - https://en.wikipedia.org/wiki/Liberation_fonts
-package vgsvg // import "gitlab.com/Emptywe/plot/vg/vgsvg"
+package vgsvg // import "github.com/Emptywe/plot/vg/vgsvg"
 
 import (
 	"bufio"
@@ -33,9 +33,9 @@ import (
 	xfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 func init() {

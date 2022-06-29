@@ -7,9 +7,9 @@ package plotter
 import (
 	"image"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/palette"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/palette"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // ColorBar is a plot.Plotter that draws a color bar legend for a ColorMap.

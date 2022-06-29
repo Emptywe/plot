@@ -5,14 +5,14 @@
 // Package vg defines an interface for drawing 2D vector graphics.
 // This package is designed with the hope that many different
 // vector graphics back-ends can conform to the interface.
-package vg // import "gitlab.com/Emptywe/plot/vg"
+package vg // import "github.com/Emptywe/plot/vg"
 
 import (
 	"image"
 	"image/color"
 	"io"
 
-	"gitlab.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/font"
 )
 
 // A Canvas is the main drawing interface for 2D vector

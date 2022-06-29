@@ -16,14 +16,14 @@
 // For more information see:
 // http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_learnMore.html
 //
-package brewer // import "gitlab.com/Emptywe/plot/palette/brewer"
+package brewer // import "github.com/Emptywe/plot/palette/brewer"
 
 import (
 	"errors"
 	"fmt"
 	"image/color"
 
-	"gitlab.com/Emptywe/plot/palette"
+	"github.com/Emptywe/plot/palette"
 )
 
 // Color represents a Brewer Palette color.

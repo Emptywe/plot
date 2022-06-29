@@ -8,9 +8,9 @@ import (
 	"image/color"
 	"math"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // Polygon implements the Plotter interface, drawing a polygon.

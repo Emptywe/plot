@@ -13,12 +13,12 @@ import (
 	xfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
-	"gitlab.com/Emptywe/plot/vg/vgsvg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg/vgsvg"
 )
 
 func Example_embedFonts() {

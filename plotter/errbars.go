@@ -7,9 +7,9 @@ package plotter
 import (
 	"math"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // DefaultCapWidth is the default width of error bar caps.

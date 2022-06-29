@@ -12,7 +12,7 @@ import (
 	"runtime/debug"
 )
 
-const root = "gitlab.com/Emptywe/plot"
+const root = "github.com/Emptywe/plot"
 
 // Version returns the version of Gonum/plot and its checksum. The returned
 // values are only valid in binaries built with module support.

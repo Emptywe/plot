@@ -9,10 +9,10 @@ import (
 	"math"
 	"sort"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/palette"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/palette"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 // Contour implements the Plotter interface, drawing

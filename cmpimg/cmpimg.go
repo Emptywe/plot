@@ -4,7 +4,7 @@
 
 // Package cmpimg compares the raw representation of images taking into account
 // idiosyncracies related to their underlying format (SVG, PDF, PNG, ...).
-package cmpimg // import "gitlab.com/Emptywe/plot/cmpimg"
+package cmpimg // import "github.com/Emptywe/plot/cmpimg"
 
 import (
 	"bytes"

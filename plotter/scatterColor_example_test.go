@@ -12,12 +12,12 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/palette/moreland"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
-	"gitlab.com/Emptywe/plot/vg/vgimg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/palette/moreland"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg/vgimg"
 )
 
 // ExampleScatter_color draws a colored scatter plot.

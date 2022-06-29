@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package draw // import "gitlab.com/Emptywe/plot/vg/draw"
+package draw // import "github.com/Emptywe/plot/vg/draw"
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ import (
 	"sort"
 	"sync"
 
-	"gitlab.com/Emptywe/plot/text"
-	"gitlab.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/text"
+	"github.com/Emptywe/plot/vg"
 )
 
 // formats holds the registered canvas image formats
@@ -293,11 +293,11 @@ func New(c vg.CanvasSizer) Canvas {
 // image format. Supported formats need to be registered by importing one or
 // more of the following packages:
 //
-//     gitlab.com/Emptywe/plot/vg/vgeps // provides eps
-//     gitlab.com/Emptywe/plot/vg/vgimg // provides png, jpg|jpeg, tif|tiff
-//     gitlab.com/Emptywe/plot/vg/vgpdf // provides pdf
-//     gitlab.com/Emptywe/plot/vg/vgsvg // provides svg
-//     gitlab.com/Emptywe/plot/vg/vgtex // provides tex
+//     github.com/Emptywe/plot/vg/vgeps // provides eps
+//     github.com/Emptywe/plot/vg/vgimg // provides png, jpg|jpeg, tif|tiff
+//     github.com/Emptywe/plot/vg/vgpdf // provides pdf
+//     github.com/Emptywe/plot/vg/vgsvg // provides svg
+//     github.com/Emptywe/plot/vg/vgtex // provides tex
 func NewFormattedCanvas(w, h vg.Length, format string) (vg.CanvasWriterTo, error) {
 	formats.RLock()
 	defer formats.RUnlock()
