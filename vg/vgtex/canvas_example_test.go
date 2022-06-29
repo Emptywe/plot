@@ -9,11 +9,11 @@ import (
 	"log"
 	"os"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
-	"gitlab.com/Emptywe/plot/vg/vgtex"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/vg/vgtex"
 )
 
 // An example of making a LaTeX plot.

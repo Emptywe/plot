@@ -7,7 +7,7 @@
 //
 // vgtex generates PGF instructions that will be interpreted and rendered by LaTeX.
 // vgtex allows to put any valid LaTeX notation inside plot's strings.
-package vgtex // import "gitlab.com/Emptywe/plot/vg/vgtex"
+package vgtex // import "github.com/Emptywe/plot/vg/vgtex"
 
 import (
 	"bufio"
@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/Emptywe/plot/font"
-	"gitlab.com/Emptywe/plot/vg"
-	"gitlab.com/Emptywe/plot/vg/draw"
+	"github.com/Emptywe/plot/font"
+	"github.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot/vg/draw"
 )
 
 const degPerRadian = 180 / math.Pi

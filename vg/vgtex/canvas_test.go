@@ -8,10 +8,10 @@ import (
 	"image/color"
 	"testing"
 
-	"gitlab.com/Emptywe/plot"
-	"gitlab.com/Emptywe/plot/cmpimg"
-	"gitlab.com/Emptywe/plot/plotter"
-	"gitlab.com/Emptywe/plot/vg"
+	"github.com/Emptywe/plot"
+	"github.com/Emptywe/plot/cmpimg"
+	"github.com/Emptywe/plot/plotter"
+	"github.com/Emptywe/plot/vg"
 )
 
 func TestTexCanvas(t *testing.T) {
