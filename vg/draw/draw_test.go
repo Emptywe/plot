@@ -10,15 +10,15 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/recorder"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/recorder"
 
-	_ "gonum.org/v1/plot/vg/vgeps"
-	_ "gonum.org/v1/plot/vg/vgimg"
-	_ "gonum.org/v1/plot/vg/vgpdf"
-	_ "gonum.org/v1/plot/vg/vgsvg"
-	_ "gonum.org/v1/plot/vg/vgtex"
+	_ "gitlab.com/Emptywe/plot/vg/vgeps"
+	_ "gitlab.com/Emptywe/plot/vg/vgimg"
+	_ "gitlab.com/Emptywe/plot/vg/vgpdf"
+	_ "gitlab.com/Emptywe/plot/vg/vgsvg"
+	_ "gitlab.com/Emptywe/plot/vg/vgtex"
 )
 
 func TestCrop(t *testing.T) {

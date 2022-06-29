@@ -14,10 +14,10 @@ import (
 
 	"golang.org/x/exp/rand"
 
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/palette"
+	"gitlab.com/Emptywe/plot/vg"
 	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/vg"
 )
 
 var visualDebug = flag.Bool("visual", false, "output images for benchmarks and test data")

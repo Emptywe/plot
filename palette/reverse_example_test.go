@@ -8,10 +8,10 @@ import (
 	"log"
 	"strconv"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/palette/moreland"
-	"gonum.org/v1/plot/plotter"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/palette"
+	"gitlab.com/Emptywe/plot/palette/moreland"
+	"gitlab.com/Emptywe/plot/plotter"
 )
 
 // This example creates a color bar and a second color bar where the

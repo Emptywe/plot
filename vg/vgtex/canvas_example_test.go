@@ -9,11 +9,11 @@ import (
 	"log"
 	"os"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgtex"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/vgtex"
 )
 
 // An example of making a LaTeX plot.

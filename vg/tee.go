@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/color"
 
-	"gonum.org/v1/plot/font"
+	"gitlab.com/Emptywe/plot/font"
 )
 
 // MultiCanvas creates a canvas that duplicates its drawing operations to all

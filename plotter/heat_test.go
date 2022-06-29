@@ -9,13 +9,13 @@ import (
 	"math"
 	"testing"
 
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/palette"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/vgimg"
 	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
 )
 
 type offsetUnitGrid struct {

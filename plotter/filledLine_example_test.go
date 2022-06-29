@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/plotter"
 )
 
 func ExampleLine_filledLine() {

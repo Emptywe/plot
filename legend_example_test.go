@@ -8,10 +8,10 @@ import (
 	"image/color"
 	"os"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/vgimg"
 )
 
 type exampleThumbnailer struct {

@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
 )
 
 func TestHistogram(t *testing.T) {

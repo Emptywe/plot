@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package text // import "gonum.org/v1/plot/text"
+package text // import "gitlab.com/Emptywe/plot/text"
 
 import (
 	"math"
 	"strings"
 
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/vg"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/vg"
 )
 
 // Plain is a text/plain handler.

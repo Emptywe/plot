@@ -17,11 +17,11 @@ import (
 	"gioui.org/op"
 	"gioui.org/unit"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vggio"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/vggio"
 )
 
 func ExampleCanvas() {

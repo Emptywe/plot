@@ -9,7 +9,7 @@ import (
 	"image/color"
 	"math"
 
-	"gonum.org/v1/plot/palette"
+	"gitlab.com/Emptywe/plot/palette"
 )
 
 // luminance is a color palette that interpolates

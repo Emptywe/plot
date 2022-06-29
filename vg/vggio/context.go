@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package vggio // import "gonum.org/v1/plot/vg/vggio"
+package vggio // import "gitlab.com/Emptywe/plot/vg/vggio"
 
 import (
 	"image"
@@ -12,7 +12,7 @@ import (
 	"gioui.org/op"
 	"gioui.org/op/clip"
 
-	"gonum.org/v1/plot/vg"
+	"gitlab.com/Emptywe/plot/vg"
 )
 
 // ctxops holds a stack of Gio operations.

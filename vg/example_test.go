@@ -19,12 +19,12 @@ import (
 
 	"golang.org/x/image/font/opentype"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/vgimg"
 )
 
 func Example_addFont() {

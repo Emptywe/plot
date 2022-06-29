@@ -5,12 +5,12 @@
 //go:build !minimal
 // +build !minimal
 
-package plot // import "gonum.org/v1/plot"
+package plot // import "gitlab.com/Emptywe/plot"
 
 import (
-	_ "gonum.org/v1/plot/vg/vgeps"
-	_ "gonum.org/v1/plot/vg/vgimg"
-	_ "gonum.org/v1/plot/vg/vgpdf"
-	_ "gonum.org/v1/plot/vg/vgsvg"
-	_ "gonum.org/v1/plot/vg/vgtex"
+	_ "gitlab.com/Emptywe/plot/vg/vgeps"
+	_ "gitlab.com/Emptywe/plot/vg/vgimg"
+	_ "gitlab.com/Emptywe/plot/vg/vgpdf"
+	_ "gitlab.com/Emptywe/plot/vg/vgsvg"
+	_ "gitlab.com/Emptywe/plot/vg/vgtex"
 )

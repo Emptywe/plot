@@ -9,12 +9,12 @@ package plotter_test
 import (
 	"image/color"
 
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/palette"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
 )
 
 type deciGrid struct{ mat.Matrix }

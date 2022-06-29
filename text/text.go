@@ -8,8 +8,8 @@ import (
 	"image/color"
 	"math"
 
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/vg"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/vg"
 )
 
 // Handler parses, formats and renders text.

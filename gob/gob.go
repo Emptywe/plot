@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package gob // import "gonum.org/v1/plot/gob"
+package gob // import "gitlab.com/Emptywe/plot/gob"
 
 import (
 	"encoding/gob"
 	"image/color"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/text"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/text"
 )
 
 func init() {

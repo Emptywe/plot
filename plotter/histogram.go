@@ -10,9 +10,9 @@ import (
 	"image/color"
 	"math"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 )
 
 // Histogram implements the Plotter interface,

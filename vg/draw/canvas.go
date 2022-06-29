@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package draw // import "gonum.org/v1/plot/vg/draw"
+package draw // import "gitlab.com/Emptywe/plot/vg/draw"
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ import (
 	"sort"
 	"sync"
 
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
+	"gitlab.com/Emptywe/plot/text"
+	"gitlab.com/Emptywe/plot/vg"
 )
 
 // formats holds the registered canvas image formats
@@ -293,11 +293,11 @@ func New(c vg.CanvasSizer) Canvas {
 // image format. Supported formats need to be registered by importing one or
 // more of the following packages:
 //
-//     gonum.org/v1/plot/vg/vgeps // provides eps
-//     gonum.org/v1/plot/vg/vgimg // provides png, jpg|jpeg, tif|tiff
-//     gonum.org/v1/plot/vg/vgpdf // provides pdf
-//     gonum.org/v1/plot/vg/vgsvg // provides svg
-//     gonum.org/v1/plot/vg/vgtex // provides tex
+//     gitlab.com/Emptywe/plot/vg/vgeps // provides eps
+//     gitlab.com/Emptywe/plot/vg/vgimg // provides png, jpg|jpeg, tif|tiff
+//     gitlab.com/Emptywe/plot/vg/vgpdf // provides pdf
+//     gitlab.com/Emptywe/plot/vg/vgsvg // provides svg
+//     gitlab.com/Emptywe/plot/vg/vgtex // provides tex
 func NewFormattedCanvas(w, h vg.Length, format string) (vg.CanvasWriterTo, error) {
 	formats.RLock()
 	defer formats.RUnlock()

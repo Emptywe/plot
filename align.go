@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 )
 
 // Align returns a two-dimensional row-major array of Canvases which will

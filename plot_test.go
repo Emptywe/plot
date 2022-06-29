@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/recorder"
-	"gonum.org/v1/plot/vg/vgimg"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/text"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/vg/recorder"
+	"gitlab.com/Emptywe/plot/vg/vgimg"
 )
 
 func TestLegendAlignment(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"image"
 	"math"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 )
 
 // Image is a plotter that draws a scaled, raster image.

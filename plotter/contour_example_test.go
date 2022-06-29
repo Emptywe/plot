@@ -11,12 +11,12 @@ import (
 
 	"golang.org/x/exp/rand"
 
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/palette"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/vg"
 	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
 )
 
 func ExampleContour() {

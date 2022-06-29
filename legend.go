@@ -7,10 +7,10 @@ package plot
 import (
 	"math"
 
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/text"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 )
 
 // A Legend gives a description of the meaning of different

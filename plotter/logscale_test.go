@@ -7,7 +7,7 @@ package plotter_test
 import (
 	"testing"
 
-	"gonum.org/v1/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/cmpimg"
 )
 
 func TestLogScale(t *testing.T) {

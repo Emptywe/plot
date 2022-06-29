@@ -10,14 +10,14 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/font/liberation"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"gitlab.com/Emptywe/plot"
+	"gitlab.com/Emptywe/plot/cmpimg"
+	"gitlab.com/Emptywe/plot/font"
+	"gitlab.com/Emptywe/plot/font/liberation"
+	"gitlab.com/Emptywe/plot/plotter"
+	"gitlab.com/Emptywe/plot/text"
+	"gitlab.com/Emptywe/plot/vg"
+	"gitlab.com/Emptywe/plot/vg/draw"
 )
 
 func ExampleLatex() {
