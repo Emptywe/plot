@@ -368,7 +368,7 @@ func (a verticalAxis) size() (w vg.Length) {
 // draw draws the axis along the left side of a draw.Canvas.
 func (a verticalAxis) draw(c draw.Canvas) {
 	var (
-		x = c.Min.X
+		x = c.Max.X
 		y vg.Length
 	)
 	if a.Label.Text != "" {
