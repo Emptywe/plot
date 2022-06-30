@@ -380,10 +380,10 @@ func (a verticalAxis) draw(c draw.Canvas) {
 			y = c.Center().Y
 		case draw.PosTop:
 			y = c.Max.Y
-			y += a.Label.TextStyle.Width(a.Label.Text) / 2
+			y -= a.Label.TextStyle.Width(a.Label.Text) / 2
 		}
 		descent := a.Label.TextStyle.FontExtents().Descent
-		c.FillText(sty, vg.Point{X: x - descent, Y: y}, a.Label.Text)
+		c.FillText(sty, vg.Point{X: x - descent, Y: -y}, a.Label.Text)
 		x += descent
 		x += a.Label.Padding
 	}
