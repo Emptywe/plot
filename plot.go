@@ -166,7 +166,7 @@ func (p *Plot) Draw(c draw.Canvas) {
 
 	xheight := x.size()
 	x.draw(padX(p, draw.Crop(c, ywidth, 0, 0, 0)))
-	y.draw(padY(p, draw.Crop(c, 0, 0, xheight, 0)))
+	y.draw(padY(p, draw.Crop(c, 0, ywidth, xheight, 0)))
 
 	dataC := padY(p, padX(p, draw.Crop(c, ywidth, 0, xheight, 0)))
 	for _, data := range p.plotters {
