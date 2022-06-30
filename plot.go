@@ -173,7 +173,7 @@ func (p *Plot) Draw(c draw.Canvas) {
 		data.Plot(dataC, p)
 	}
 
-	p.Legend.Draw(draw.Crop(c, ywidth, 0, xheight, 0))
+	p.Legend.Draw(draw.Crop(c, 0, ywidth, xheight, 0))
 }
 
 // DataCanvas returns a new draw.Canvas that
