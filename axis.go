@@ -399,7 +399,7 @@ func (a verticalAxis) draw(c draw.Canvas) {
 		if !c.ContainsY(y) || t.IsMinor() {
 			continue
 		}
-		c.FillText(a.Tick.Label, vg.Point{X: x, Y: y - descent}, t.Label)
+		c.FillText(a.Tick.Label, vg.Point{X: x, Y: y + descent}, t.Label)
 		major = true
 	}
 	if major {
