@@ -374,7 +374,7 @@ func (a verticalAxis) draw(c draw.Canvas) {
 	if a.Label.Text != "" {
 		sty := a.Label.TextStyle
 		sty.Rotation += math.Pi / 2
-		x += a.Label.TextStyle.Height(a.Label.Text)
+		x -= a.Label.TextStyle.Height(a.Label.Text)
 		switch a.Label.Position {
 		case draw.PosCenter:
 			y = c.Center().Y
@@ -383,7 +383,7 @@ func (a verticalAxis) draw(c draw.Canvas) {
 			y -= a.Label.TextStyle.Width(a.Label.Text) / 2
 		}
 		descent := a.Label.TextStyle.FontExtents().Descent
-		c.FillText(sty, vg.Point{X: x - 2*descent, Y: -2 * y}, a.Label.Text)
+		c.FillText(sty, vg.Point{X: x - descent, Y: y}, a.Label.Text)
 		x += descent
 		x += a.Label.Padding
 	}
